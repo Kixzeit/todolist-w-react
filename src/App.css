@@ -1,0 +1,189 @@
+*{
+  box-sizing: border-box;
+}
+.form {
+  width: 80%;
+  margin: 60px auto 0;
+}
+
+.form span {
+  font-size: 25px;
+  margin-right: 20px;
+  color: #1a5487;
+}
+
+.form input {
+  margin-right: 30px;
+  outline: none;
+  background-color: #8f0391;
+  color: #fff;
+  border: 2px solid #8f0391;
+  border-radius: 25px;
+  padding: 5px 25px;
+}
+
+.form button {
+  background: #8f0391; 
+  color: #fff; 
+  border: 2px solid #3b087e;
+  padding: 5px 35px;
+  border-radius: 25px; 
+  margin-top: 15px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+}
+
+
+.validartarea {
+  width: 80%;
+  color: #8f0391;
+  margin: 40px auto;
+  font-size: 25px;
+  border: 3px dotted #8f0391;
+  text-align: center;
+  border-radius: 25px; 
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  margin-left: 50px;
+}
+
+.validartarea::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  padding: 16px 20px;
+  display: block;
+  border-radius: 50%;
+  left: -50%;
+  right: -50%;
+  top: -150%;
+  bottom: -150%;
+}
+
+.lista {
+  width: 80%;
+  margin: 50px auto 0;
+}
+
+.tarea {
+  font-size: 20px;
+  margin: 20px 0 15px 0;
+  display: grid;
+  grid-template-columns: 3fr 1fr 1fr;
+}
+
+.edit {
+  background: #000; 
+  color: #FFF; 
+  border-radius: 10px; 
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top:-10px;
+  position: relative;
+}
+
+.borrar {
+  background-color: transparent; 
+  color: rgb(240, 24, 229); 
+  border-radius: 10px; 
+  z-index: 1;
+  overflow: hidden;
+  display: inline-block;
+  margin-right: 10px;
+  margin-top:-10px;
+  position: relative;
+}
+
+
+.input {
+  margin-right: 30px;
+  outline: none;
+  background-color: #fff;
+  color: #1a5487;
+  border: 2px solid #8f0391;
+  border-radius: 25px;
+  padding: 5px 25px;
+}
+
+.App {
+  width: 100%;
+  padding: 5rem;
+  background-image: url(https://th.bing.com/th/id/OIP.cPBk4zdr3q-MZWksTfbO8gHaEK?pid=ImgDet&rs=1);
+}
+
+.divtareas {
+  color: #fff;
+  background-color: transparent;
+  text-transform: uppercase;
+  border-radius: 40px;
+  padding: 2rem;
+  text-align: center;
+  margin-left: 2rem;
+  border: 3px solid #8f0391;
+}
+
+.logo {
+  margin: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: linear-gradient(
+    120deg,
+    #2d1053 20.69%,
+    #410591 50.19%,
+    #8a1880 89.69%
+  ); 
+
+}
+
+.horizontal {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.divlogo {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.divformulario {
+  color: #fff;
+  background-color: transparent;
+  border-radius: 40px;
+  padding: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+  margin-left: 2rem;
+  font-size:0.8rem;
+  border: 3px solid #8f0391;
+  
+}
+
+.todaslastareas {
+  background-color: #8f0391;
+  padding: 0.2rem;
+  border-radius: 10px;
+  margin-top: 1rem;
+  border: 2px solid black;
+}
+
+.body-app{
+  display: flex;
+  justify-content: space-around;
+}
+
+button{
+  background-color: transparent;
+  border:none;
+  font-size:20px;
+  color: red;
+  font-weight: bold;
+}
